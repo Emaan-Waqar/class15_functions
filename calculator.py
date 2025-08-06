@@ -17,10 +17,12 @@ print("2 .Subtraction")
 print("3 .Multiplication")
 print("4 .Division")
 print("\n")
+
 operation= int(input("Enter the operation number: "))
 num1= int(input("Enter first value: "))
 num2= int(input("Enter second value: "))
 print("\n")
+
 if operation == 1:
     print(num1,"+", num2,"=", add(num1,num2))
 elif operation == 2:
